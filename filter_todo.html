@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <b><p  class="texts">Type :</p></b>
+        <select id="type_todo" class="todo_type" onchange="filter_todo()">
+                <option value="personal">Personal</option>
+                <option value="shopping">Shopping</option>
+                <option value="work">Work</option>
+                <option value="other">Other</option>
+                </select>
+                <table id="list_table">
+                    <tr id="">
+                      <th>  </th>
+                      <th>Name</th>
+                      <th>Description</th>
+                      <th>Type</th>
+                      <th>Due Date</th>
+                      <th>Is reminder</th>
+                      <th>Reminder date</th>
+                      <th>Is public</th>
+                      <th>Attatchment</th>
+                      <th> </th>
+                </tr>
+                 </table>
+      
+    </body>
+    <script src="./js/filter_todo.js"></script>
+</html>

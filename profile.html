@@ -1,0 +1,38 @@
+
+        <html>
+                <head>
+                       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+                       <link rel ="stylesheet" href="./css/profile.css">
+                </head>
+                <body onload="profile()">
+                       <img id="logo" src="logo2.png" alt="logo"><br>
+               
+                       <p class = "labels">Email :</p><p id ="emailid" class="edit_inputs"></p>
+                       <input type="text" id="email" class="inputs">
+               
+                       <p class = "labels">First Name :</p><p id ="label_first"  class="edit_inputs"></p>
+                       <input type="text" id="first" class="inputs">
+                       
+                       <p class = "labels">Last Name :</p><p id ="label_last"  class="edit_inputs"></p>
+                       <input type="text" id="last" class="inputs">
+                       
+                       <p class = "labels">Password :</p><p id ="label_last"  class="edit_inputs"></p>
+                       <input type="text" id="pwd" class="inputs">
+                       
+                       <p class = "labels">Gender :</p><p id ="label_gender"  class="edit_inputs"></p>
+                           <input type="radio" id="m" name="gender" value="male" checked >Male<br>
+                           <input type="radio" id="f" name="gender" value="female"> Female<br>
+                       
+                           <p class = "labels">Address :</p><p id ="label_address"  class="edit_inputs"></p>
+                       <textarea id="addresstxt" class="inputs"></textarea>
+                       
+                       <p class = "labels">Profile image :</p><p id ="label_img" class="edit_inputs"></p>
+                       <img src="" height="200" alt="Image preview" id="image"><br>
+                       <input type = "file" id ="pic" class="inputs"><br>
+                       <input type="button" value="Edit" id="editButton" onclick="editContent()">
+                       <input type="button" onclick="profile_edit()" value="submit" id="buttons">
+                       
+                       <script type = "text/javascript" src="./js/profile.js"></script>
+                       <script type = "text/javascript" src="./js/store_todo.js"></script>
+                </body>
+               </html>
