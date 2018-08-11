@@ -1,0 +1,88 @@
+#logo{
+    height: 150px;
+    width: 200px;
+}
+
+.texts{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.inputs{
+    margin-left: 400px;
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+#m,#f{
+    margin-left: 500px;
+
+}
+.labels{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.edit_inputs{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.links{
+    
+    text-align: center;
+}
+
+#buttons{
+    font-size: 20px;
+    text-align: center;
+   margin-left: 500px;
+   margin-top: 20px;
+}
+
+#y_public,#n_public{
+   margin-left: 500px;
+}
+.todo_type{
+    font-size: 20px;
+    text-align: center;
+   margin-left: 500px;
+}
+
+#list_table{
+    text-align : center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.dashboard{
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color:#4C89EE;
+}
+
+#image{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
